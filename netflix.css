@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+.first{
+    background-image: url(IN-en-20240108-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    width: 100%;
+    height: 700px;
+    color: white;
+    font-weight: 600;
+    margin: auto;
+    text-align: center;
+    font-size: larger;
+    margin-top: 0;
+    background-size: cover;
+    padding-bottom: 5%;
+    display: absolute;
+}
+
+#language{
+    opacity: 90%;
+    position: absolute;
+    top: 3%;
+    right: 20%;
+    height: 5%;
+    width: 10%;
+    text-align: center;
+    background-color: #3b3838;
+    color: white;
+    display: absolute;
+    font-weight: 700;
+    font-size: 16px;
+    z-index: 4;
+}
+
+svg{
+    position: absolute;
+    z-index: 5;
+    right: 27.5%;
+    top: 4%;
+    height: 20px;
+    color: white;
+}
+
+#text{
+    margin-top: 12%;
+    font-stretch: expanded;
+}
+
+#logo{
+    display: flex;
+    margin-left: 10%;
+    width: 12%;
+}
+
+.first input{
+    opacity: 60%;
+    border-radius: 5px;
+    padding-left: 1%;
+    background-color: #303030;
+    font-size: 15px;
+    border: solid 1px rgb(158, 156, 156);
+}
+
+.first input::placeholder{
+    color: rgb(252, 249, 249);
+    font-size: 16px;
+}
+
+#sign{
+    position: absolute;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    font-size: 14px;
+    top: 3%;
+    right: 13%;
+    outline: none;
+    border: none;
+    height: 5%;
+    width: 6%;
+}
+
+.start{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    font-size: large;
+    outline: none;
+    border: none;
+}
+
+#second{
+    background-color: black;
+    color: white;
+    padding-top: 10%;
+    font-size: larger;
+    padding-left: 5%;
+    top: 20%;
+    height: 400px;
+}
+
+#one{
+    display: flex;
+}
+
+p{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#enjoy{
+    text-align: left;
+    width: 520px;
+    margin-left: 10%;
+}
+
+#tv{
+    width: 360px;
+    z-index: 1;
+    margin-left: 10%;
+    position: relative;
+    bottom: 76%;
+    left: 20%;
+}
+
+#border{
+    z-index: 0;
+    width: 500px;
+    position: relative;
+    left: 21.5%;
+    bottom: 25%;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+#three{
+    background-color: black;
+    color: white;
+    font-size: larger;
+    height: 600px;
+    display: flex;
+}
+
+#mobile{
+    height: 75%;
+    margin-left: 10%;
+}
+
+#abc{
+    height: 80px;
+    margin-left: 5%;
+    margin-top: 3%;
+    z-index: 1;
+}
+
+#two{
+    margin-top: 10%;
+    width: 40%;
+    z-index: 0;
+    
+}
+
+#container{
+    display: flex;
+    border: solid 2px gray;
+    height: 15%;
+    border-radius: 15px;
+    z-index: 2;
+    width: 20%;
+    position: absolute;
+    left: 19.5%;
+    margin-top: 20%;
+    background-color: black;
+}
+
+#vid{
+    margin-left: 5%;
+    height: 50%;
+    z-index: 2;
+    position: relative;
+    right: 23%;
+    width: 300px;
+    
+}
+
+#def{
+    margin-top: 8%;
+    margin-left: 9%;
+
+}
+
+#mac{
+    z-index: 1;
+    left: 10%;
+    position: relative;
+    height: 400px;
+}
+
+#download{
+    color: blue;
+    font-size: smaller;
+    font-weight: 100;
+}
+
+#st{
+    padding-top: 8%;
+    padding-left: 5%;
+}
+
+#four{
+    background-color: black;
+    display: flex;
+    color: white;
+    height: 500px;
+    padding-top: 5%;
+}
+
+#five{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#txt{
+    padding-top: 10%;
+    width: 40%
+}
+
+#child{
+    margin-left: 10%;
+}
+
+#six{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.faq{
+    list-style: none;
+}
+
+.type{
+    display: flex;
+    font-size: 25px;
+    background: #303030;
+    font-weight: 500;
+    padding: 20px;
+    margin-bottom: 2px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.type::after{
+    content: '+';
+    position: absolute;
+    right: 17%;
+    font-size: 30px;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+.hide{
+    display: flex;
+    font-size: 22px;
+    background: #303030;
+    font-weight: 500;
+    padding: 20px;
+    margin-bottom: 2px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
+}
+
+.seven{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.mail{
+    background-color: rgb(34, 34, 34);
+    border: solid 0.5px rgb(158, 156, 156);
+    border-radius: 4px;
+    padding-left: 1%;
+}
+
+.eight{
+    background-color: black;
+    color: rgba(255,255,255,0.7);
+    text-align: justify;
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-bottom: 10%;
+}
+
+table{
+    border-spacing: 15px;
+    width:85%;
+}
+
+#lang{
+    opacity: 90%;
+    height: 6%;
+    padding: 5px;
+    width: 10%;
+    text-align: center;
+    background-color: black;
+    border-radius: 3px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    z-index: 4;
+    border: 0.5px solid white;
+    margin-left: 1%;
+}
+
+#new{
+    position: absolute;
+    right: 78.5%;
+    margin-top: 1%;
+}
